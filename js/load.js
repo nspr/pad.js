@@ -3,7 +3,7 @@ var loadState = {
 	preload: function () {
         game.renderer.renderSession.roundPixels = true;
         
-		// Add a loading label 
+        //Add a loading label 
 		var loadingLabel = game.add.text(game.world.centerX, 150, 'loading...', { font: '30px Arial', fill: '#ffffff' });
 		loadingLabel.anchor.setTo(0.5, 0.5);
 
